@@ -1328,7 +1328,7 @@
   <string name="first_time_create_key">Vytvořit vlastní klíč</string>
   <string name="first_time_import_key">Importovat klíč ze souboru</string>
   <string name="first_time_security_token">Použít bezpečnostní token</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Přeskočit nastavení</string>
   <string name="first_time_blank_security_token">Chcete použít tento prázdný bezpečnostní token s OpenKeychain?\n\nProsím, odeberte nyní bezpečnostní tokenu. Dám vědět, bude-li opět potřebný.</string>
   <string name="first_time_blank_security_token_yes">Použít tento bezpečnostní token</string>

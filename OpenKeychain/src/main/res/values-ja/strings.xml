@@ -1239,7 +1239,7 @@
   <string name="first_time_create_key">自分のキーを作る</string>
   <string name="first_time_import_key">ファイルから鍵をインポート</string>
   <string name="first_time_security_token">セキュリティトークンを使用する</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">セットアップをスキップ</string>
   <string name="first_time_blank_security_token">OpenKeychainで、この空のセキュリティトークンを使用しますか?\n\nセキュリティトークンを取り除いてください。再度必要になったときにプロンプトが表示されます!</string>
   <string name="first_time_blank_security_token_yes">このセキュリティトークンを使用する</string>

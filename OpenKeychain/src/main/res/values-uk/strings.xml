@@ -1332,7 +1332,7 @@
   <string name="first_time_create_key">Створити мій ключ</string>
   <string name="first_time_import_key">Імпортувати з файла</string>
   <string name="first_time_security_token">Використовувати маркер безпеки</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Пропустити установку</string>
   <string name="first_time_blank_security_token">Чи бажаєте Ви використовувати цей чистий маркер безпеки з OpenKeychain?\n\nБудь ласка, приберіть маркер безпеки зараз. Вам буде запропоновано його надати, коли він буде потрібен!</string>
   <string name="first_time_blank_security_token_yes">Використовувати цей маркер безпеки</string>

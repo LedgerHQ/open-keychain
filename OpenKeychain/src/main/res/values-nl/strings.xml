@@ -1266,7 +1266,7 @@
   <string name="first_time_create_key">Mijn sleutel aanmaken</string>
   <string name="first_time_import_key">Sleutel importeren uit bestand</string>
   <string name="first_time_security_token">Security Token gebruiken</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Setup overslaan</string>
   <string name="first_time_blank_security_token">Wil je dit lege Security Token gebruiken met OpenKeychain?\n\nVerwijder het Security Token, een melding verschijnt zodra dit weer nodig is!</string>
   <string name="first_time_blank_security_token_yes">Dit Security Token gebruiken</string>

@@ -1273,7 +1273,7 @@
   <string name="first_time_create_key">创建密钥</string>
   <string name="first_time_import_key">从文件导入密钥</string>
   <string name="first_time_security_token">使用安全令牌</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">跳过设置</string>
   <string name="first_time_blank_security_token">您希望将此空白的安全令牌用于 OpenKeychain 吗？\n\n现在请将安全令牌移开，当再次需要时，我们会提示您！</string>
   <string name="first_time_blank_security_token_yes">使用该安全令牌</string>

@@ -1266,7 +1266,7 @@
   <string name="first_time_create_key">Criar minha chave</string>
   <string name="first_time_import_key">Importar chave do arquivo</string>
   <string name="first_time_security_token">Usar Token de Segurança</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Pular Configuração</string>
   <string name="first_time_blank_security_token">Você deseja usar este Token de Segurança em branco com o OpenKeychain?\n\nPor favor, remova o Token de Segurança agora, ele será solicitado quando for necessário novamente!</string>
   <string name="first_time_blank_security_token_yes">Usar este Token de Segurança</string>
