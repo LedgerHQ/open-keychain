@@ -85,6 +85,15 @@ public class CreateSecurityTokenWaitFragment extends Fragment {
                 mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugLockedHard()), FragAction.TO_RIGHT);
                 break;
+
+            case R.id.menu_token_debug_ledger_nano_usb:
+                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                        SecurityTokenInfo.newInstanceDebugLedgerUSB()), FragAction.TO_RIGHT);
+                break;
+            case R.id.menu_token_debug_ledger_nano_ble:
+                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                        SecurityTokenInfo.newInstanceDebugLedgerBLE()), FragAction.TO_RIGHT);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

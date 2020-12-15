@@ -16,4 +16,12 @@
         android:title="Debug / Hard Locked Token"
         android:id="@+id/menu_token_debug_locked_hard"
         />
+    <item
+        android:title="Debug / Ledger Nano USB"
+        android:id="@+id/menu_token_debug_ledger_nano_usb"
+        />
+    <item
+        android:title="Debug / Ledger Nano Bluetooth"
+        android:id="@+id/menu_token_debug_ledger_nano_ble"
+        />
 </menu>

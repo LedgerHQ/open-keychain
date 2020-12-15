@@ -1189,7 +1189,7 @@
   <string name="first_time_create_key">Crear a miña chave</string>
   <string name="first_time_import_key">Importar chave desde ficheiro</string>
   <string name="first_time_security_token">Usar Testemuño de Seguridade</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Omitir configuración</string>
   <string name="first_time_blank_security_token_yes">Usar este Testemuño de Seguridade</string>
   <string name="backup_text">Os respaldos que inclúan as túas propias chaves non se deben compartir con outra xente!</string>

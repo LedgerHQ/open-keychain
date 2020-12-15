@@ -111,13 +111,33 @@ public abstract class SecurityTokenInfo implements Parcelable {
                 Hex.decode("010203040506"), "yubinu2@mugenguild.com", "http://valodim.stratum0.net/mryubinu2.asc", 0, 0, true);
     }
 
+    // TODO(LEDGER)
+    public static SecurityTokenInfo newInstanceDebugLedgerUSB() {
+        if (!Constants.DEBUG) {
+            throw new UnsupportedOperationException("This operation is only available in debug builds!");
+        }
+        return SecurityTokenInfo.create(TransportType.USB, TokenType.LEDGER_NANO_X,
+                new byte[][] { KeyFormattingUtils.convertFingerprintHexFingerprint("4700BA1AC417ABEF3CC7765AD686905837779C3E") },
+                Hex.decode("010203040506"), "yubinu2@mugenguild.com", "http://valodim.stratum0.net/mryubinu2.asc", 0, 0, true);
+    }
+
+    // TODO(LEDGER)
+    public static SecurityTokenInfo newInstanceDebugLedgerBLE() {
+        if (!Constants.DEBUG) {
+            throw new UnsupportedOperationException("This operation is only available in debug builds!");
+        }
+        return SecurityTokenInfo.create(TransportType.USB, TokenType.LEDGER_NANO_X,
+                new byte[][] { KeyFormattingUtils.convertFingerprintHexFingerprint("4700BA1AC417ABEF3CC7765AD686905837779C3E") },
+                Hex.decode("010203040506"), "yubinu2@mugenguild.com", "http://valodim.stratum0.net/mryubinu2.asc", 0, 0, true);
+    }
+
     public enum TransportType {
         NFC, USB
     }
 
     public enum TokenType {
         YUBIKEY_NEO, YUBIKEY_4_5, FIDESMO, NITROKEY_PRO, NITROKEY_STORAGE, NITROKEY_START_OLD,
-        NITROKEY_START_1_25_AND_NEWER, GNUK_OLD, GNUK_1_25_AND_NEWER, LEDGER_NANO_S, SECALOT, UNKNOWN
+        NITROKEY_START_1_25_AND_NEWER, GNUK_OLD, GNUK_1_25_AND_NEWER, LEDGER_NANO_S, LEDGER_NANO_X, SECALOT, UNKNOWN
     }
 
     public static final Set<TokenType> SUPPORTED_USB_TOKENS = Collections.unmodifiableSet(new HashSet<>(Arrays.asList(
@@ -130,6 +150,7 @@ public abstract class SecurityTokenInfo implements Parcelable {
             TokenType.GNUK_OLD,
             TokenType.GNUK_1_25_AND_NEWER,
             TokenType.LEDGER_NANO_S,
+            TokenType.LEDGER_NANO_X,
             TokenType.SECALOT
     )));
 

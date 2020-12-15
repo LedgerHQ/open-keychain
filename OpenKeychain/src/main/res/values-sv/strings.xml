@@ -1274,7 +1274,7 @@
   <string name="first_time_create_key">Skapa min nyckel</string>
   <string name="first_time_import_key">Importera nyckel från fil</string>
   <string name="first_time_security_token">Använd säkerhetstoken</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Hoppa över inställning</string>
   <string name="first_time_blank_security_token">Vill du använda denna tomma säkerhetstoken med OpenKeychain?\n\nVänligen ta bort säkerhetstoken nu, du kommer att frågas när den behövs igen!</string>
   <string name="first_time_blank_security_token_yes">Använd denna säkerhetstoken</string>

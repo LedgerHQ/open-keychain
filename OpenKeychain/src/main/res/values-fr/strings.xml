@@ -1354,7 +1354,7 @@
   <string name="first_time_create_key">Créer ma clé</string>
   <string name="first_time_import_key">Importer la clé d’un fichier</string>
   <string name="first_time_security_token">Utiliser un jeton de sécurité</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Ignorer la configuration</string>
   <string name="first_time_blank_security_token">Voulez-vous utiliser ce jeton de sécurité vide avec OpenKeychain ?\n\nVeuillez retirer le jeton de sécurité maintenant, vous serez informé quand elle sera requis de nouveau</string>
   <string name="first_time_blank_security_token_yes">Utiliser ce jeton de sécurité</string>

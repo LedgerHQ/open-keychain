@@ -1256,7 +1256,7 @@
   <string name="first_time_text1">Преузмите вашу приватност помоћу Отвореног кључарника!</string>
   <string name="first_time_create_key">Направи ми кључ</string>
   <string name="first_time_import_key">Увези кључ из фајла</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Прескочи поставу</string>
   <string name="backup_text">Резерве које укључују ваше сопствене кључеве никад немојте делити са другима!</string>
   <string name="backup_section">Резерва</string>

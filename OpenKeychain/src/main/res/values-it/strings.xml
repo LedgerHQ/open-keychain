@@ -1027,7 +1027,7 @@
   <string name="first_time_create_key">Crea mia chiave</string>
   <string name="first_time_import_key">Importa chiave da file</string>
   <string name="first_time_security_token">Usa Token</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Salta Installazione</string>
   <string name="first_time_blank_security_token_yes">Utilizza questo Token</string>
   <string name="backup_section">Backup</string>

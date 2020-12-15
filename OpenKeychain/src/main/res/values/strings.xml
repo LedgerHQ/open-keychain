@@ -1415,7 +1415,7 @@
     <string name="first_time_create_key">"Create my key"</string>
     <string name="first_time_import_key">"Import key from file"</string>
     <string name="first_time_security_token">"Use Security Token"</string>
-    <string name="first_time_security_token_subtitle">"(Fidesmo, YubiKey NEO, SIGILANCE, …)"</string>
+    <string name="first_time_security_token_subtitle">"(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)"</string>
     <string name="first_time_skip">"Skip Setup"</string>
     <string name="first_time_blank_security_token">"Would you like to use this blank Security Token with OpenKeychain?\n\nPlease take away the Security Token now, you will be prompted when it is needed again!"</string>
     <string name="first_time_blank_security_token_yes">"Use this Security Token"</string>

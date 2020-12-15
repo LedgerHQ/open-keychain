@@ -1417,7 +1417,7 @@
   <string name="first_time_create_key">Создать свой ключ</string>
   <string name="first_time_import_key">Импорт ключа из файла</string>
   <string name="first_time_security_token">Из токена безопасности</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Пропустить настройку</string>
   <string name="first_time_blank_security_token">Вы хотите использовать этот пустой токен безопасности с OpenKeychain?\n\nПожалуйста, теперь уберите токен безопасности, вам сообщат, когда он снова понадобится!</string>
   <string name="first_time_blank_security_token_yes">Использовать этот токен безопасности</string>

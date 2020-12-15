@@ -1217,7 +1217,7 @@
   <string name="first_time_create_key">Sortu nire giltza</string>
   <string name="first_time_import_key">Inportatu giltza agiritik</string>
   <string name="first_time_security_token">Erabili Segurtasun Lekukoa</string>
-  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, …)</string>
+  <string name="first_time_security_token_subtitle">(Fidesmo, YubiKey NEO, SIGILANCE, Ledger Nano, …)</string>
   <string name="first_time_skip">Jauzi Ezarpena</string>
   <string name="first_time_blank_security_token_yes">Erabili Segurtasun Lekuko hau</string>
   <string name="backup_text">Zure jabetzako giltzak dituzten babeskopiak inoiz ez dira besteekin elkarbanatu behar!</string>
