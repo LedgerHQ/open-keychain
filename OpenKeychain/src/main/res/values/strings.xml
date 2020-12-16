@@ -1424,7 +1424,7 @@
     <string name="first_time_blank_security_token_yes">"Use this Security Token"</string>
 
     <string name="first_time_security_token_NFC">"NFC"</string>
-    <string name="first_time_security_token_BLE">"Bluetooth"</string>
+    <string name="first_time_security_token_BLE">"Pair Bluetooth device"</string>
 
     <string name="backup_text">"Backups that include your own keys must never be shared with other people!"</string>
     <string name="backup_all">"Full backup (encrypted)"</string>

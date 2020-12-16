@@ -49,6 +49,7 @@ public class CreateSecurityTokenWaitFragment extends Fragment {
 
     CreateKeyActivity mCreateKeyActivity;
     View mBackButton;
+    View mBluetooth;
 
     @Override
     public void onActivityCreated(@Nullable final Bundle savedInstanceState) {
@@ -114,11 +115,19 @@ public class CreateSecurityTokenWaitFragment extends Fragment {
         });
 
         mBackButton = view.findViewById(R.id.create_key_back_button);
+        mBluetooth = view.findViewById(R.id.create_key_bluetooth_button);
 
         mBackButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mCreateKeyActivity.loadFragment(null, FragAction.TO_LEFT);
+            }
+        });
+
+        mBluetooth.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO(LEGER): implement next view
             }
         });
 

@@ -46,6 +46,20 @@
                     style="?borderlessButtonStyle"
                     />
 
+                <TextView
+                    android:id="@+id/create_key_bluetooth_button"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:minHeight="?android:attr/listPreferredItemHeight"
+                    android:text="@string/first_time_security_token_BLE"
+                    android:textAllCaps="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
             </FrameLayout>
 
         </LinearLayout>
@@ -77,24 +91,6 @@
             android:drawablePadding="8dp"
             android:layout_gravity="center_vertical"
             android:gravity="left|center_vertical"
-            android:clickable="true"
-            style="?android:attr/borderlessButtonStyle" />
-
-        <TextView
-            android:id="@+id/create_key_bluetooth_button"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_weight="1"
-            android:text="@string/first_time_security_token_BLE"
-            android:textAllCaps="true"
-            android:minHeight="?android:attr/listPreferredItemHeight"
-            android:drawableRight="@drawable/ic_chevron_right_grey_24dp"
-            android:drawablePadding="8dp"
-            android:gravity="right|center_vertical"
             android:clickable="true"
             style="?android:attr/borderlessButtonStyle" />
 
