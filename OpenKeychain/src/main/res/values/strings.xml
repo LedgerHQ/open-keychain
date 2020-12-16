@@ -1424,8 +1424,7 @@
     <string name="first_time_blank_security_token">"Would you like to use this blank Security Token with OpenKeychain?\n\nPlease take away the Security Token now, you will be prompted when it is needed again!"</string>
     <string name="first_time_blank_security_token_yes">"Use this Security Token"</string>
 
-    <string name="first_time_security_token_NFC">"NFC"</string>
-    <string name="first_time_security_token_BLE">"Pair Bluetooth device"</string>
+    <string name="first_time_security_token_NFC">"Create my key"</string>
 
     <string name="backup_text">"Backups that include your own keys must never be shared with other people!"</string>
     <string name="backup_all">"Full backup (encrypted)"</string>
@@ -1913,4 +1912,9 @@
     <string name="share_key_clipboard">Share key via clipboard</string>
     <string name="share_key">Share key</string>
 
+    <!-- TODO(LEDGER): BLUETOOTH -->
+    <string name="first_time_security_token_BLE">"Pair Bluetooth device"</string>
+    <string name="bluetooth_status_title">"Pairing the bluetooth device..."</string>
+    <string name="bluetooth_status_subtitle">"Please make sure that your device is unlocked and bluetooth is enabled."</string>
+    <string name="status_bluetooth">Checking bluetooth…</string>
 </resources>

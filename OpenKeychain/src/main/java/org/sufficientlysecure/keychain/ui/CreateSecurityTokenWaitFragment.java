@@ -39,13 +39,14 @@ import org.sufficientlysecure.keychain.R;
 import org.sufficientlysecure.keychain.securitytoken.SecurityTokenInfo;
 import org.sufficientlysecure.keychain.ui.CreateKeyActivity.FragAction;
 import org.sufficientlysecure.keychain.ui.base.BaseSecurityTokenActivity;
-import org.sufficientlysecure.keychain.ui.token.ManageSecurityTokenFragment;
+import org.sufficientlysecure.keychain.ui.token.bluetooth.ManageSecurityTokenFragment;
 
 
 public class CreateSecurityTokenWaitFragment extends Fragment {
     public static final int REQUEST_CODE_SWEETSPOT = 0;
 
     public static boolean sDisableFragmentAnimations = false;
+    public static final String EXTRA_SECURITY_TOKEN_INFO = "token_info";
 
     CreateKeyActivity mCreateKeyActivity;
     View mBackButton;
@@ -127,7 +128,8 @@ public class CreateSecurityTokenWaitFragment extends Fragment {
         mBluetooth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO(LEGER): implement next view
+                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                        SecurityTokenInfo.newInstanceDebugLedgerBLE()), FragAction.TO_RIGHT);
             }
         });
 
