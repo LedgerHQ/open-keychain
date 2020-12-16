@@ -337,6 +337,10 @@
     <string name="security_token_nfc_wait">"Keep the Security Token at the back!"</string>
     <string name="security_token_nfc_finished">"Take away the Security Token now."</string>
     <string name="security_token_nfc_try_again_text">"Take away the Security Token now and touch TRY AGAIN."</string>
+
+    <!-- BLUETOOTH TODO(LEDGER) -->
+    <string name="security_token_bluetooth_text">"Please make sure your Security Token is unlocked with Bluetooth enabled"</string>
+
     <string name="file_delete_confirmation_title">"Delete original files?"</string>
     <string name="file_delete_confirmation">"The following files will be deleted:%s"</string>
     <string name="file_delete_successful">"%1$d out of %2$d files have been deleted.%3$s"</string>
@@ -1418,6 +1422,9 @@
     <string name="first_time_skip">"Skip Setup"</string>
     <string name="first_time_blank_security_token">"Would you like to use this blank Security Token with OpenKeychain?\n\nPlease take away the Security Token now, you will be prompted when it is needed again!"</string>
     <string name="first_time_blank_security_token_yes">"Use this Security Token"</string>
+
+    <string name="first_time_security_token_NFC">"NFC"</string>
+    <string name="first_time_security_token_BLE">"Bluetooth"</string>
 
     <string name="backup_text">"Backups that include your own keys must never be shared with other people!"</string>
     <string name="backup_all">"Full backup (encrypted)"</string>
