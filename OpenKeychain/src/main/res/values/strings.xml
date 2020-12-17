@@ -1912,8 +1912,11 @@
     <string name="share_key">Share key</string>
 
     <!-- TODO(LEDGER): BLUETOOTH -->
-    <string name="first_time_security_token_BLE">"Pair Bluetooth device"</string>
+    <string name="first_time_security_token_BLE">"Pair bluetooth device"</string>
     <string name="bluetooth_status_title">"Pairing the bluetooth device..."</string>
     <string name="bluetooth_status_subtitle">"Please make sure that your device is unlocked and bluetooth is enabled."</string>
-    <string name="status_bluetooth">Checking bluetooth…</string>
+    <string name="status_bluetooth">Checking bluetooth...</string>
+    <string name="discover_bluetooth_devices">Searching for devices...</string>
+    <string name="no_bluetooth_device_found">No device found</string>
+
 </resources>
