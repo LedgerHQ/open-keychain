@@ -39,7 +39,7 @@ import org.sufficientlysecure.keychain.R;
 import org.sufficientlysecure.keychain.securitytoken.SecurityTokenInfo;
 import org.sufficientlysecure.keychain.ui.CreateKeyActivity.FragAction;
 import org.sufficientlysecure.keychain.ui.base.BaseSecurityTokenActivity;
-import org.sufficientlysecure.keychain.ui.token.bluetooth.ManageSecurityTokenFragment;
+import org.sufficientlysecure.keychain.ui.token.bluetooth.ManageBluetoothDeviceFragment;
 
 
 public class CreateSecurityTokenWaitFragment extends Fragment {
@@ -72,28 +72,28 @@ public class CreateSecurityTokenWaitFragment extends Fragment {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_token_debug_uri:
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugUri()), FragAction.TO_RIGHT);
                 break;
             case R.id.menu_token_debug_keyserver:
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugKeyserver()), FragAction.TO_RIGHT);
                 break;
             case R.id.menu_token_debug_locked:
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugLocked()), FragAction.TO_RIGHT);
                 break;
             case R.id.menu_token_debug_locked_hard:
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugLockedHard()), FragAction.TO_RIGHT);
                 break;
 
             case R.id.menu_token_debug_ledger_nano_usb:
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugLedgerUSB()), FragAction.TO_RIGHT);
                 break;
             case R.id.menu_token_debug_ledger_nano_ble:
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugLedgerBLE()), FragAction.TO_RIGHT);
                 break;
         }
@@ -128,7 +128,7 @@ public class CreateSecurityTokenWaitFragment extends Fragment {
         mBluetooth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mCreateKeyActivity.loadFragment(ManageSecurityTokenFragment.newInstance(
+                mCreateKeyActivity.loadFragment(ManageBluetoothDeviceFragment.newInstance(
                         SecurityTokenInfo.newInstanceDebugLedgerBLE()), FragAction.TO_RIGHT);
             }
         });
